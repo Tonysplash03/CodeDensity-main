@@ -8,29 +8,29 @@ import Self from './components/self'
 const colorseats = [
   {
     text: "Room",
-    k: 1
+    k: 10
   },
   {
     text: "Room",
-    k: 14
+    k: 2
   },
   {
     text: "Room",
-    k: 9
+    k: 6
   }
 ];
 const Private_Room = [
-  {text: "Room", pp: 1},
+  {text: "Room", pp: 0},
   {text: "Room", pp: 0},
   {text: "Room", pp: 1}
 ];
 const Self_study = [
+  {text: "Room", pri: 1},
   {text: "Room", pri: 0},
   {text: "Room", pri: 1},
   {text: "Room", pri: 0},
-  {text: "Room", pri: 0},
   {text: "Room", pri: 1},
-  {text: "Room", pri: 0}
+  {text: "Room", pri: 1}
 ];
 
 function App() {
@@ -50,8 +50,9 @@ function App() {
           <h3 className='stair'>Stair</h3>
         </div>
         {colorElements}
-        {private_Room}
+        <div className='personal'>{private_Room}</div>
         {self_study}
+        <div className='study'>{self_study}</div>
       </div>
 
       <Floors title='F1' />

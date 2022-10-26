@@ -6,7 +6,7 @@
   margin: 20px;
   padding: 20px;
   width: 500px;
-  height: 627.5px;
+  height: 542px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 2%;
@@ -46,4 +46,14 @@
   display: inline;
   padding: 5px 25px;
   border-radius: 10%;
+}
+.personal{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.study{
+  position: relative;
+  left: 490px;
+  bottom: 280px;
 }
