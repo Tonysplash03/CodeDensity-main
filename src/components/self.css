@@ -1,0 +1,25 @@
+.student-booked{
+    margin: 13px 250px 0px 200px;
+    line-height: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: brown;
+    position: relative ;
+    padding: 6px 0 6px 0;
+    right: 220px;
+    bottom: 480px;
+ }
+
+ .student-none{
+    margin: 13px 250px 0px 200px;
+    bottom: 480px;
+    padding: 6px 0 6px 0;
+    line-height: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(20, 244, 61);
+    position: relative ;
+    right: 220px;
+ }
+ img{
+     height: 20px;
+     width: 30px;
+ }

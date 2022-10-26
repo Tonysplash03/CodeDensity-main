@@ -1,0 +1,38 @@
+.Top-header{
+    font-size: 29px;
+    height: 80px;
+    color: white;
+    background-color: #9AC2DE;
+    padding: 10px;
+
+    
+}
+.navbar-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #9AC2DE;
+    border-radius: 50%;
+    cursor: pointer;
+    /* display: flex;
+    flex-direction: column; */
+    position:relative;
+    bottom: 60px;
+    left:33%;
+}
+.line{
+    height: 0.22rem;
+    margin-top: 5px;
+    width:1.5rem;
+    background-color: #808080;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    /* margin:2px; */
+}
+/* .Header{
+    position:relative;
+    top: 200px;
+} */

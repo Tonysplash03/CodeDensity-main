@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.Bg-Room{
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  height: 627.5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2%;
+  background-color: #B6B6B6;
+}
+.floor{
+  border-radius: 3%;
+}
+.f1{
+  background-color:brown;
+}
+.Enter_Exit{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.entrance{
+  background-color: #B6B6B6;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+  right: 50px;
+  font-weight:400;
+  text-align: left;
+}
+.stair{
+  background-color: #808080;
+  padding: 20px 70px 20px 70px;
+  position: relative;
+  left: 20px;
+  font-weight: 400;
+  border-top: solid black 1px;
+  border-left: solid black 1px;
+  border-bottom: solid black 1px;
+}
+.floor-name{
+  background-color: #808080;
+  display: inline;
+  padding: 5px 25px;
+  border-radius: 10%;
+}
